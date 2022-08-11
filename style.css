@@ -68,6 +68,7 @@
   header h2 {
     padding: 10px;
   }
+
   header button {
     font-size: 20px;
     color: #fbfbfb;
@@ -85,4 +86,64 @@
     left: 10%;
     transform: translate(-10%, -70%);
     animation: fade 1s ease 1s forwards;
+  }
+
+  @media (max-width: 480px) {
+    header img {
+        position: absolute;
+        height: 35%;
+        top: 50%;
+      }
+
+      header h1 {
+        font-size: 70px;
+        position: absolute;
+        height: 60%;
+        top: 12%;
+        left: 10%;
+      }
+
+      header h2 {
+        position: relative;
+        padding: 10px;
+        right: 43%;
+        top: 35%;
+      }
+
+    nav a {
+        padding: 6px 16px;
+    }
+    nav ul {
+        width: 80%;
+    }
+  }
+
+  @media (max-width: 810px) {
+    header img {
+        position: absolute;
+        height: 35%;
+        top: 50%;
+      }
+
+      header h1 {
+        font-size: 70px;
+        position: absolute;
+        height: 60%;
+        top: 12%;
+        left: 10%;
+      }
+
+      header h2 {
+        position: relative;
+        padding: 10px;
+        right: 43%;
+        top: 35%;
+      }
+
+    nav a {
+        padding: 6px 16px;
+    }
+    nav ul {
+        width: 86%;
+    }
   }
